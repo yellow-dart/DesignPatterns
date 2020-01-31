@@ -11,8 +11,7 @@ namespace DesignPatternsCore
 
             var monster = MonsterFactory.CreateRandomMonster();
 
-            var falbos = new MilwaukeeStylePizzaStore();
-            falbos.CreatePizzaForDelivery();
+            TakeABunchOfOrders();
         }
 
         public static void TakeABunchOfOrders()
